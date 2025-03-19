@@ -28,7 +28,7 @@
                 <a href="about.php" class="btn btn-outline-dark me-2 <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">About</a>
                 <a href="Rooms.php" class="btn btn-outline-dark me-2 <?php echo ($current_page == 'Rooms.php') ? 'active' : ''; ?>">Room</a>
                 <a href="Login.php" class="btn btn-outline-dark me-2 <?php echo ($current_page == 'Login.php') ? 'active' : ''; ?>">Log In</a>
-                <a href="SignupForm.php" class="btn btn-outline-dark <?php echo ($current_page == 'SignupForm.php') ? 'active' : ''; ?>">Sign Up</a>
+                <a href="Signin.php" class="btn btn-outline-dark <?php echo ($current_page == 'signin.php') ? 'active' : ''; ?>">Sign In</a>
             </nav>
 
             
@@ -43,7 +43,7 @@
             <a href="about.php" class="d-block text-white py-2">About</a>
             <a href="Rooms.php" class="d-block text-white py-2">Room</a>
             <a href="Login.php" class="d-block text-white py-2">Log In</a>
-            <a href="SignupForm.php" class="d-block text-white py-2">Sign Up</a>
+            <a href="signin.php" class="d-block text-white py-2">Sign In</a>
             <div class="d-flex gap-3 mt-3">
                 <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
